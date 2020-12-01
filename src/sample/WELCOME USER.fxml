@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="344.0" prefWidth="523.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Button layoutX="400.0" layoutY="267.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="78.0" text="LOG OUT">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Button>
+    <Label layoutX="173.0" layoutY="31.0" prefHeight="17.0" prefWidth="154.0" style="-fx-background-color: #87CEEB;" text="    Welcome...! USER">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </Label>
+    <Label layoutX="57.0" layoutY="80.0" prefHeight="20.0" prefWidth="78.0" style="-fx-background-color: #87CEEB;" text="PICK ONE..">
+        <font>
+            <Font name="System Italic" size="14.0" />
+        </font>
+    </Label>
+    <MenuButton layoutX="162.0" layoutY="122.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Soil Info">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#soils" text="view soils" />
+        </items>
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </MenuButton>
+    <MenuButton layoutX="160.0" layoutY="190.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Trainings">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#TRAINS" text="View Trainings" />
+            <MenuItem mnemonicParsing="false" onAction="#request" text="Request Trainings" />
+        </items>
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </MenuButton>
+   <Button layoutX="37.0" layoutY="269.0" mnemonicParsing="false" onAction="#four" text="BACK" />
+</AnchorPane>

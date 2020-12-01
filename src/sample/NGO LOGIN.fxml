@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <TextField layoutX="180.0" layoutY="31.0" prefHeight="30.0" prefWidth="160.0" style="-fx-background-color: #87CEEB;" text="      NGO  LOGIN">
+        <font>
+            <Font name="System Bold" size="14.0" />
+        </font>
+    </TextField>
+    <Label layoutX="78.0" layoutY="110.0" prefHeight="17.0" prefWidth="80.0" text="User Name">
+        <font>
+            <Font size="13.0" />
+        </font>
+    </Label>
+    <Label layoutX="78.0" layoutY="148.0" prefHeight="17.0" prefWidth="64.0" text="Password">
+        <font>
+            <Font size="13.0" />
+        </font>
+    </Label>
+    <TextField layoutX="186.0" layoutY="107.0" />
+    <TextField layoutX="186.0" layoutY="145.0" />
+    <Button layoutX="165.0" layoutY="206.0" mnemonicParsing="false" onAction="#LOG" style="-fx-background-color: #FFFF00;" text="LOGIN" />
+    <Button layoutX="173.0" layoutY="271.0" mnemonicParsing="false" onAction="#password" prefHeight="30.0" prefWidth="149.0" style="-fx-background-color: #; -fx-border-color: #000000;" text="Forgot Password..?">
+        <font>
+            <Font name="System Bold Italic" size="14.0" />
+        </font>
+    </Button>
+</AnchorPane>

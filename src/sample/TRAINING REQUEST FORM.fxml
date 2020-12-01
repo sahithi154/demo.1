@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Label layoutX="29.0" layoutY="29.0" prefHeight="17.0" prefWidth="168.0" text="TRAINING REQUEST FORM:">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </Label>
+    <Label layoutX="113.0" layoutY="85.0" prefHeight="17.0" prefWidth="110.0" style="-fx-background-color: #87CEEB;" text="Name ">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Label>
+    <Label layoutX="113.0" layoutY="133.0" prefHeight="17.0" prefWidth="110.0" style="-fx-background-color: #87CEEB;" text="Role">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Label>
+    <Label layoutX="113.0" layoutY="177.0" prefHeight="17.0" prefWidth="110.0" style="-fx-background-color: #87CEEB;" text="Title">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Label>
+    <Label layoutX="113.0" layoutY="223.0" prefHeight="17.0" prefWidth="110.0" style="-fx-background-color: #87ceeb;" text="Description">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Label>
+    <Label layoutX="113.0" layoutY="265.0" prefHeight="17.0" prefWidth="110.0" style="-fx-background-color: #87CEEB;" text="Request Schedule">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Label>
+    <TextField layoutX="256.0" layoutY="82.0" />
+    <MenuButton layoutX="256.0" layoutY="130.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0">
+        <items>
+            <MenuItem mnemonicParsing="false" text="Student" />
+            <MenuItem mnemonicParsing="false" text="Farmer" />
+        </items>
+    </MenuButton>
+    <TextField layoutX="256.0" layoutY="174.0" />
+    <TextField layoutX="256.0" layoutY="220.0" />
+    <TextField layoutX="256.0" layoutY="262.0" />
+    <Button layoutX="212.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #FFFF00;" text="SEND">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </Button>
+    <Button layoutX="482.0" layoutY="308.0" mnemonicParsing="false" onAction="#TWELVE" text="BACK">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Button>
+</AnchorPane>

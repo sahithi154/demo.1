@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="353.0" prefWidth="510.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Label layoutX="28.0" layoutY="26.0" prefHeight="17.0" prefWidth="103.0" text="VIEW SOIL:">
+        <font>
+          <Font name="System Bold" size="13.0" />
+        </font>
+    </Label>
+    <TableView layoutX="121.0" layoutY="61.0" prefHeight="272.0" prefWidth="273.0">
+      <columns>
+          <TableColumn prefWidth="108.0" text="SI .NO" />
+          <TableColumn prefWidth="164.0" text="SOIL NAME" />
+      </columns>
+    </TableView>
+    <Button layoutX="419.0" layoutY="299.0" mnemonicParsing="false" onAction="#THREE" prefHeight="29.0" prefWidth="59.0" text="BACK">
+        <font>
+          <Font name="System Italic" size="13.0" />
+        </font>
+    </Button>
+</AnchorPane>

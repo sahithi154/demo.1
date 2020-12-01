@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="327.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Label layoutX="189.0" layoutY="39.0" prefHeight="17.0" prefWidth="140.0" style="-fx-background-color: #87CEEB;" text="Welcome..! NGO">
+        <font>
+            <Font name="System Bold" size="16.0" />
+        </font>
+    </Label>
+    <Label layoutX="55.0" layoutY="73.0" prefHeight="17.0" prefWidth="88.0" style="-fx-background-color: #87CEEB;" text="PICK ONE...">
+        <font>
+            <Font name="System Italic" size="13.0" />
+        </font>
+    </Label>
+    <MenuButton layoutX="166.0" layoutY="156.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="93.0" style="-fx-background-color: #FFFF00;" text="Trainings">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#TRAINING" text="Add trainings" />
+            <MenuItem mnemonicParsing="false" onAction="#training" text="view trainings" />
+        </items>
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </MenuButton>
+    <Button layoutX="417.0" layoutY="246.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="LOGOUT">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Button>
+   <Button layoutX="35.0" layoutY="261.0" mnemonicParsing="false" onAction="#two" text="BACK" />
+</AnchorPane>

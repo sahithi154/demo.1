@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <Label layoutX="181.0" layoutY="33.0" prefHeight="17.0" prefWidth="163.0" style="-fx-background-color: #87CEEB;" text="Welcome....! ADMIN">
+        <font>
+            <Font name="System Bold" size="17.0" />
+        </font>
+    </Label>
+    <TextField layoutX="52.0" layoutY="115.0" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: #87CEEB;" text="PICK ONE..">
+        <font>
+            <Font name="System Italic" size="15.0" />
+        </font>
+    </TextField>
+    <MenuButton layoutX="135.0" layoutY="193.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Soil Info">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#ADD" text="Add soil" />
+            <MenuItem mnemonicParsing="false" onAction="#UPDATE" text="Update soil" />
+         <MenuItem mnemonicParsing="false" onAction="#VIEW" text="View soil" />
+        </items>
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </MenuButton>
+    <MenuButton layoutX="143.0" layoutY="259.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;" text="Market">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#NAMES" text="Add MarketNames" />
+            <MenuItem mnemonicParsing="false" onAction="#MARKETS" text="View Markets" />
+            <MenuItem mnemonicParsing="false" onAction="#report" text="Add MarketReport" />
+        </items>
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </MenuButton>
+    <Button layoutX="459.0" layoutY="310.0" mnemonicParsing="false" text="LogOut">
+        <font>
+            <Font name="System Bold Italic" size="13.0" />
+        </font>
+    </Button>
+   <Button layoutX="26.0" layoutY="312.0" mnemonicParsing="false" onAction="#one" text="BACK" />
+</AnchorPane>

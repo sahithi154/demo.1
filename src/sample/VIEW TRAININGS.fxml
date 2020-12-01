@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" prefHeight="353.0" prefWidth="557.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <Label layoutX="23.0" layoutY="25.0" prefHeight="17.0" prefWidth="125.0" text="VIEW TRAININGS:">
+        <font>
+            <Font name="System Bold" size="13.0" />
+        </font>
+    </Label>
+    <TableView layoutX="80.0" layoutY="66.0" prefHeight="263.0" prefWidth="467.0">
+        <columns>
+            <TableColumn prefWidth="75.0" text="TITLE" />
+            <TableColumn prefWidth="110.0" text="DESCRIPTION" />
+            <TableColumn prefWidth="181.0" text="SCHEDULE" />
+            <TableColumn prefWidth="103.0" text="STATUS" />
+        </columns>
+    </TableView>
+   <Button layoutX="8.0" layoutY="317.0" mnemonicParsing="false" onAction="#NINE" text="BACK" />
+</AnchorPane>
