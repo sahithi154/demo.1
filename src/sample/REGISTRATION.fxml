@@ -24,7 +24,6 @@
     <TextField layoutX="199.0" layoutY="66.0" prefHeight="25.0" prefWidth="182.0" />
     <TextField layoutX="199.0" layoutY="104.0" prefHeight="25.0" prefWidth="182.0" />
     <TextField layoutX="199.0" layoutY="138.0" prefHeight="25.0" prefWidth="182.0" />
-    <TextField layoutX="199.0" layoutY="173.0" prefHeight="25.0" prefWidth="182.0" />
     <TextField layoutX="199.0" layoutY="339.0" prefHeight="25.0" prefWidth="182.0" />
     <DatePicker layoutX="200.0" layoutY="206.0" prefHeight="25.0" prefWidth="182.0" />
     <Button layoutX="138.0" layoutY="448.0" mnemonicParsing="false" onAction="#registration" prefHeight="1.0" prefWidth="138.0" style="-fx-background-color: #FFFF00; -fx-border-color: #000000;" text="REGISTER NOW">
@@ -34,29 +33,82 @@
     </Button>
     <MenuButton layoutX="201.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="182.0">
         <items>
-            <MenuItem mnemonicParsing="false" text="Action 1" />
-            <MenuItem mnemonicParsing="false" text="Action 2" />
+            <MenuItem mnemonicParsing="false" text="Mumbai" />
+         <MenuItem mnemonicParsing="false" text="Delhi" />
+         <MenuItem mnemonicParsing="false" text="Banglore" />
+         <MenuItem mnemonicParsing="false" text="Dehradun" />
+         <MenuItem mnemonicParsing="false" text="Hyderabad" />
+         <MenuItem mnemonicParsing="false" text="Ahmedabad" />
+         <MenuItem mnemonicParsing="false" text="Chennai" />
+         <MenuItem mnemonicParsing="false" text="Kolkata" />
+         <MenuItem mnemonicParsing="false" text="Pune" />
+         <MenuItem mnemonicParsing="false" text="Lucknow" />
+         <MenuItem mnemonicParsing="false" text="Visakhapatnam" />
+         <MenuItem mnemonicParsing="false" text="Ranchi" />
+         <MenuItem mnemonicParsing="false" text="Srinagar" />
+         <MenuItem mnemonicParsing="false" text="Vijayawada" />
+         <MenuItem mnemonicParsing="false" text="Mysore" />
+         <MenuItem mnemonicParsing="false" text="Thirunelvelli" />
+         <MenuItem mnemonicParsing="false" text="Thiruvananthapuram" />
+         <MenuItem mnemonicParsing="false" text="Amaravati" />
+         <MenuItem mnemonicParsing="false" text="Udaipur" />
+         <MenuItem mnemonicParsing="false" text="Belagum" />
+         <MenuItem mnemonicParsing="false" text="Jammu" />
+         <MenuItem mnemonicParsing="false" text="Kurnool" />
+         <MenuItem mnemonicParsing="false" text="Manglore" />
+         <MenuItem mnemonicParsing="false" text="Bellary" />
+         <MenuItem mnemonicParsing="false" text="Ongole" />
+            <MenuItem mnemonicParsing="false" text="Davangere" />
+         <MenuItem mnemonicParsing="false" text="None" />
         </items>
     </MenuButton>
     <MenuButton layoutX="199.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="182.0">
         <items>
-            <MenuItem mnemonicParsing="false" text="Action 1" />
-            <MenuItem mnemonicParsing="false" text="Action 2" />
+            <MenuItem mnemonicParsing="false" text="Andhra Pradesh" />
+            <MenuItem mnemonicParsing="false" text="Assam" />
+         <MenuItem mnemonicParsing="false" text="Arunachal Pradesh" />
+         <MenuItem mnemonicParsing="false" text="Bihar" />
+         <MenuItem mnemonicParsing="false" text="Chhattisgarh" />
+         <MenuItem mnemonicParsing="false" text="Goa" />
+         <MenuItem mnemonicParsing="false" text="Gujarat" />
+         <MenuItem mnemonicParsing="false" text="Haryana" />
+         <MenuItem mnemonicParsing="false" text="Himachal pradesh" />
+         <MenuItem mnemonicParsing="false" text="Jharkhand" />
+         <MenuItem mnemonicParsing="false" text="Karnataka" />
+         <MenuItem mnemonicParsing="false" text="Kerala" />
+         <MenuItem mnemonicParsing="false" text="Madhya Pradesh" />
+         <MenuItem mnemonicParsing="false" text="Manipur" />
+         <MenuItem mnemonicParsing="false" text="Maharashtra" />
+         <MenuItem mnemonicParsing="false" text="Meghalaya" />
+         <MenuItem mnemonicParsing="false" text="Mizoram" />
+         <MenuItem mnemonicParsing="false" text="Nagaland" />
+         <MenuItem mnemonicParsing="false" text="Odisha" />
+         <MenuItem mnemonicParsing="false" text="Punjab" />
+         <MenuItem mnemonicParsing="false" text="Rajasthan" />
+         <MenuItem mnemonicParsing="false" text="Sikkim" />
+         <MenuItem mnemonicParsing="false" text="Tamil Nadu" />
+         <MenuItem mnemonicParsing="false" text="Telangana" />
+         <MenuItem mnemonicParsing="false" text="Tripura" />
+         <MenuItem mnemonicParsing="false" text="Uttar Pradesh" />
+         <MenuItem mnemonicParsing="false" text="Utharakhand" />
+         <MenuItem mnemonicParsing="false" text="West Bengal" />
         </items>
     </MenuButton>
     <MenuButton layoutX="201.0" layoutY="307.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="182.0">
         <items>
-            <MenuItem mnemonicParsing="false" text="Action 1" />
-            <MenuItem mnemonicParsing="false" text="Action 2" />
+            <MenuItem mnemonicParsing="false" text="India" />
         </items>
     </MenuButton>
     <Label layoutX="30.0" layoutY="366.0" prefHeight="25.0" prefWidth="103.0" text="Security Question" />
     <Label layoutX="29.0" layoutY="398.0" prefHeight="17.0" prefWidth="92.0" text="Security Answer" />
     <MenuButton layoutX="199.0" layoutY="374.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="182.0">
         <items>
-            <MenuItem mnemonicParsing="false" text="Action 1" />
-            <MenuItem mnemonicParsing="false" text="Action 2" />
+            <MenuItem mnemonicParsing="false" text="What time of the day were you born?" />
+            <MenuItem mnemonicParsing="false" text="In what town or city did you meet your spouse or partner?" />
+         <MenuItem mnemonicParsing="false" text="What primary school did you attend?" />
+         <MenuItem mnemonicParsing="false" text="What is your favourite dish?" />
         </items>
     </MenuButton>
     <TextField layoutX="199.0" layoutY="403.0" prefHeight="25.0" prefWidth="182.0" />
+   <PasswordField layoutX="199.0" layoutY="173.0" prefHeight="25.0" prefWidth="182.0" />
 </AnchorPane>
